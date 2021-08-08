@@ -20,10 +20,10 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 
 ## 🧪 Tecnologias
 
--   [ ] React Native
--   [ ] Typescript
--   [ ] Expo
--   [ ] Axios
+-   [ ] [React-Native](https://reactnative.dev) 
+-   [ ] [TypeScript](https://www.typescriptlang.org) 
+-   [ ] [Expo](https://expo.dev) 
+-   [ ] [Axios](https://axios-http.com) 
 
 
 ## 🚀 Como executar
