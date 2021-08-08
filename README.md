@@ -20,7 +20,7 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 
 ## 🧪 Tecnologias
 
--   [ ] [React-Native](https://reactnative.dev) 
+-   ![image]({https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB}) [React-Native](https://reactnative.dev) 
 -   [ ] [TypeScript](https://www.typescriptlang.org) 
 -   [ ] [Expo](https://expo.dev) 
 -   [ ] [Axios](https://axios-http.com) 
