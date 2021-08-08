@@ -24,10 +24,7 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   </a>&nbsp;&nbsp;
 
--   [ ] [React-Native](https://reactnative.dev) 
--   [ ] [TypeScript](https://www.typescriptlang.org) 
--   [ ] [Expo](https://expo.dev) 
--   [ ] [Axios](https://axios-http.com) 
+
 
 
 ## 🚀 Como executar
