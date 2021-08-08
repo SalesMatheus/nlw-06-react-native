@@ -2,6 +2,10 @@
 ## 💻 Projeto
 Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
 
+<h1 align="center">
+  <img alt="GamePlay" height="80" title="Plant Manager" src="https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58924%3A898" />
+</h1>
+
 
 ## :hammer_and_wrench: Features 
 
