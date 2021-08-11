@@ -3,6 +3,7 @@ import { View, FlatList, Text } from "react-native";
 import { ButtonAdd } from "../../components/ButtonAdd";
 import { CategorySelect } from "../../components/CategorySelect";
 
+import { Background } from "../../components/background";
 import { ListDivider } from "../../components/ListDivider";
 import { Appointment } from "../../components/Appointment";
 import { ListHeader } from "../../components/ListHeader";
@@ -47,7 +48,7 @@ export function Home(){
     }
 
     return(
-        <View>
+        <Background>
             <View style={styles.header}>
                 <Profile />
                 <ButtonAdd/>
@@ -72,6 +73,6 @@ export function Home(){
                     showsVerticalScrollIndicator={false}
                 />
             </View>
-        </View>
+        </Background>
     );
 }
