@@ -36,7 +36,7 @@ export function Home(){
                 id: '1',
                 name: 'Lendários',
                 icon: null,
-                owner: true,
+                owner: false,
 
             },
             category: '1',
@@ -67,25 +67,23 @@ export function Home(){
             CategorySelect={category}
             setCategory={handlerCategorySelect}
             />
-            <View style={styles.content}>
-                <ListHeader 
-                    title="Partidas Agendadas"
-                    subtitle="Total 6"
-                />
-                <FlatList 
-                    data={appointments}
-                    keyExtractor={item => item.id}
-                    renderItem={({item}) =>(
-                        <Appointment 
-                            data={item} 
-                            onPress={handleAppointmentDetails}
-                        />
-                    )}
-                    ItemSeparatorComponent={()=> <ListDivider/>}
-                    style={styles.matches}
-                    showsVerticalScrollIndicator={false}
-                />
-            </View>
+            <ListHeader 
+                title="Partidas Agendadas"
+                subtitle="Total 6"
+            />
+            <FlatList 
+                data={appointments}
+                keyExtractor={item => item.id}
+                renderItem={({item}) =>(
+                    <Appointment 
+                        data={item} 
+                        onPress={handleAppointmentDetails}
+                    />
+                )}
+                ItemSeparatorComponent={()=> <ListDivider/>}
+                style={styles.matches}
+                showsVerticalScrollIndicator={false}
+            />
         </Background>
     );
 }
