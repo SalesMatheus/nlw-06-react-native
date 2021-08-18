@@ -2,7 +2,6 @@ import React from "react";
 import { createStackNavigator } from '@react-navigation/stack'
 
 import { Home } from "../screens/Home";
-import { Guilds } from "../screens/Guilds";
 import { theme } from "../global/styles/theme";
 import { AppointmentCreate } from "../screens/AppointmentCreate";
 import { AppointmentDetails } from "../screens/AppointmentDetails";
@@ -10,7 +9,7 @@ import { AppointmentDetails } from "../screens/AppointmentDetails";
 
 const { Navigator, Screen } = createStackNavigator();
 
-export function AuthRoutes(){
+export function AppRoutes(){
     return(
         <Navigator
             screenOptions={{
