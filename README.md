@@ -8,8 +8,8 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
--   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
+-   [X] Autenticação Social OAuth2 com servidor do Discord.
+-   [X] Obtém perfil do usuário cadastro no Discord (username e avatar);
 -   [ ] Lista os servidores do Discord que o usuário faz parte;
 -   [ ] Permite realizar o agendamento de partidas;
 -   [ ] Permite filtrar as partidas por categoria;
