@@ -28,6 +28,8 @@ export function AppointmentCreate(){
     const [openGuildsModal, setOpenGuildsModal ] = useState(false);
     const [guild, setGuild] = useState<GuildProps>({} as GuildProps)
 
+
+    
     function handleOpenGuildsModal(){
         setOpenGuildsModal(true);
     }
@@ -68,7 +70,7 @@ export function AppointmentCreate(){
                         <RectButton onPress={handleOpenGuildsModal}>
                             <View style={styles.select}>
                                 {
-                                    guild.icon ? <GuildIcon /> : <View style={styles.image}/>
+                                    guild.icon ? <GuildIcon guildId={guild.id} iconId={guild.icon}/> : <View style={styles.image}/>
                                     
                                 }
                                 <View style={styles.selectBody}>
